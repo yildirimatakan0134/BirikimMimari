@@ -17,7 +17,7 @@ from deep_translator import GoogleTranslator
 from haber_botu import haberleri_getir
 
 # --- GÜVENLİK AYARLARI ---
-SECRET_KEY = os.getenv("SECRET_KEY", "birikim_mimari_ultra_guvenli_anahtar_2026_pro_max")
+SECRET_KEY = 
 ALGORITHM = "HS256"
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="api/login")
